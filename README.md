@@ -75,7 +75,12 @@ uvicorn app.app:app --reload
 
 <hr>
 
-## Frontned
+## Frontend
+
+#### Full Tutorial
+https://youtu.be/gWdGOJs6yXo
+
+[![The ultimate FARM stack Todo app with JWT PART II - React + ChakraUI | abdadeel](https://img.youtube.com/vi/gWdGOJs6yXo/0.jpg)](https://www.youtube.com/watch?v=gWdGOJs6yXo)
 
 ### Install dependecies
 
