@@ -60,7 +60,7 @@ export const Register = () => {
               size="lg"
               mt={6}
               {...register("email", {
-                required: "This is required field",
+                required: "This is a required field",
               })}
             />
             <FormErrorMessage>
