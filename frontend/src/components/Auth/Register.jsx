@@ -60,7 +60,7 @@ export const Register = () => {
               size="lg"
               mt={6}
               {...register("email", {
-                required: "This is required field",
+                required: "This is a required field",
               })}
             />
             <FormErrorMessage>
@@ -91,7 +91,7 @@ export const Register = () => {
               {errors.username && errors.username.message}
             </FormErrorMessage>
           </FormControl>
-          <FormControl isInvalid={errors.email}>
+          <FormControl isInvalid={errors.password}>
             <Input
               placeholder="Password"
               background={useColorModeValue("gray.300", "gray.600")}
@@ -99,7 +99,7 @@ export const Register = () => {
               size="lg"
               mt={6}
               {...register("password", {
-                required: "This is required field",
+                required: "This is a required field",
                 minLength: {
                   value: 5,
                   message: "Password must be at least 5 characters long",
